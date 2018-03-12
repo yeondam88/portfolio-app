@@ -1,0 +1,23 @@
+.image-container {
+  display: inline-block;
+  width: 30%;
+  height: 100%;
+  position: relative;
+
+  .user-image {
+    position: absolute;
+    top: 56px;
+    left: -250px;
+    width: 500px;
+    height: calc(100% - 112px);
+    background: url("http://eggtail.net/wp-content/uploads/2017/08/16788452_174125596420402_3928234370900426752_n.jpg")
+      no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-box-shadow: 9px 20px 74px 6px rgba(0, 0, 0, 0.37);
+    -moz-box-shadow: 9px 20px 74px 6px rgba(0, 0, 0, 0.37);
+    box-shadow: 9px 20px 74px 6px rgba(0, 0, 0, 0.37);
+  }
+}
