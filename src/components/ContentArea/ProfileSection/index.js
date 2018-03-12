@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ProfileSection = props => (
   <div className="profile-section">
@@ -14,12 +15,12 @@ const ProfileSection = props => (
         porro cupiditate, fugiat ullam eos fugit accusantium. Porro debitis
         nulla sed exercitationem rem officia totam nisi nihil harum magnam.
       </p>
-      <a href="/" className="primary-btn">
+      <Link to="/portfolio" className="primary-btn">
         Portfolio
-      </a>
-      <a href="/" className="ghost-btn">
+      </Link>
+      <Link to="/about" className="ghost-btn">
         Resume
-      </a>
+      </Link>
     </div>
   </div>
 );

@@ -3,6 +3,7 @@ import Menu from "./Menu";
 import LeftPanel from "./LeftPanel";
 import ContentArea from "./ContentArea";
 import About from "./About";
+import Portfolio from "./Portfolio";
 
 import { Switch, Route } from "react-router-dom";
 
@@ -31,6 +32,7 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={ContentArea} />
           <Route path="/about" component={About} />
+          <Route path="/portfolio" component={Portfolio} />
         </Switch>
       </div>
     );

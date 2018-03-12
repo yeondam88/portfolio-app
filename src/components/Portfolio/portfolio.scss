@@ -1,0 +1,18 @@
+.project--content-section__box {
+  background: url("https://source.unsplash.com/user/erondu/1600x900") no-repeat
+    center center;
+  background-size: cover;
+  height: 400px;
+  cursor: pointer;
+  padding: 30px;
+  transition: all 0.5s ease-in-out;
+
+  &-overlay {
+    background: #4b21ff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+}
