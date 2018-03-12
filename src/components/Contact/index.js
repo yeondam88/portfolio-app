@@ -1,35 +1,14 @@
 import React from "react";
+import ContactForm from "./ContactForm";
+import ContactUs from "./ContactUs";
 
-const About = () => {
+const Contact = () => {
   return (
-    <section className="contact--content">
-      <div className="contact--content-title">
-        <h1>Contact</h1>
-      </div>
-      <div className="contact--content-section">
-        <div className="contact--content-section__box">
-          <h5>UCLA, Los Angeles</h5>
-          <p>Electric Engineering</p>
-          <p>Session: 2012-2014</p>
-        </div>
-        <div className="contact--content-section__box">
-          <h5>UCLA, Los Angeles</h5>
-          <p>Electric Engineering</p>
-          <p>Session: 2012-2014</p>
-        </div>
-        <div className="contact--content-section__box">
-          <h5>UCLA, Los Angeles</h5>
-          <p>Electric Engineering</p>
-          <p>Session: 2012-2014</p>
-        </div>
-        <div className="contact--content-section__box">
-          <h5>UCLA, Los Angeles</h5>
-          <p>Electric Engineering</p>
-          <p>Session: 2012-2014</p>
-        </div>
-      </div>
-    </section>
+    <div className="content-area">
+      <ContactForm />
+      <ContactUs />
+    </div>
   );
 };
 
-export default About;
+export default Contact;
