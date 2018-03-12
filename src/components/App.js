@@ -4,6 +4,7 @@ import LeftPanel from "./LeftPanel";
 import ContentArea from "./ContentArea";
 import About from "./About";
 import Portfolio from "./Portfolio";
+import Contact from "./Contact";
 
 import { Switch, Route } from "react-router-dom";
 
@@ -33,6 +34,7 @@ class App extends Component {
           <Route exact path="/" component={ContentArea} />
           <Route path="/about" component={About} />
           <Route path="/portfolio" component={Portfolio} />
+          <Route path="/contact" component={Contact} />
         </Switch>
       </div>
     );
