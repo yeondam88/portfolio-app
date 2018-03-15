@@ -234,6 +234,8 @@ body {
         -webkit-box-shadow: 9px 20px 74px 6px rgba(0, 0, 0, 0.37);
         -moz-box-shadow: 9px 20px 74px 6px rgba(0, 0, 0, 0.37);
         box-shadow: 9px 20px 74px 6px rgba(0, 0, 0, 0.37);
+        overflow-y: scroll;
+        overflow-x: hidden;
 
         h4 {
           font-size: 1.3rem;
@@ -274,7 +276,7 @@ body {
     .contact-section {
       vertical-align: top;
       display: inline-block;
-      padding: 20% 0 0 0;
+      padding: 56px;
       max-width: 500px;
       .contact {
         h1 {
@@ -287,8 +289,9 @@ body {
           }
         }
         h5 {
+          font-weight: 600;
           font-size: 1.1rem;
-          margin: 0 0 2rem;
+          margin: 0 0 1.5rem;
         }
         p {
           color: $gray;
