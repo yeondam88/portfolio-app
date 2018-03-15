@@ -525,3 +525,147 @@ body {
     transform: translate3d(0, 0, 0);
   }
 }
+
+/* MEDIA QUERY */
+// Phone
+@media (max-width: 767px) {
+  .home {
+    .menu-icon {
+      top: -3px;
+      right: 20px;
+      color: white;
+      .fas {
+        color: white;
+      }
+    }
+
+    .info-section {
+      //display: none;
+      padding: 10px 20px;
+      position: static;
+
+      .logo {
+        height: 50px;
+        width: 70px;
+        font-size: 1rem;
+      }
+
+      .info-box {
+        display: none;
+      }
+    }
+
+    .content-area {
+      margin-left: 0;
+      width: 100%;
+      background: url(http://eggtail.net/wp-content/uploads/2017/08/16788452_174125596420402_3928234370900426752_n.jpg)
+        no-repeat center center;
+      background-size: cover;
+
+      .image-container {
+        display: none;
+        // padding: 56px 20px 0;
+        // .user-image {
+        //   position: static;
+        //   width: 100%;
+        // }
+      }
+      .profile-section {
+        width: 100%;
+        padding: 70% 28px 0;
+
+        .profile {
+          background: white;
+          opacity: 0.7;
+          border-radius: 5px;
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+
+          h1 {
+            margin: 0;
+            padding: 15px;
+          }
+
+          h5 {
+            margin: 0;
+            padding: 15px;
+          }
+
+          p {
+            padding: 15px;
+          }
+        }
+
+        .primary-btn,
+        .ghost-btn {
+          margin-bottom: 20px;
+          margin-left: 15px;
+          padding: 15px 15px;
+        }
+
+        .primary-btn {
+          padding: 17px 17px;
+        }
+      }
+    }
+  }
+}
+
+// Tablet
+@media (min-width: 768px) {
+  .home {
+    .content-area {
+      .image-container {
+        padding: 56px 20px 0;
+        .user-image {
+          position: static;
+          width: 100%;
+        }
+      }
+      .profile-section {
+        width: 70%;
+        float: right;
+        padding: 20% 20px 0;
+      }
+    }
+  }
+}
+
+// Desktop
+@media (min-width: 992px) and (max-width: 1199px) {
+  .home {
+    .content-area {
+      .image-container {
+        padding: 56px 20px 0;
+        float: left;
+      }
+      .profile-section {
+        width: 70%;
+        float: left;
+        padding: 20% 20px 0;
+        max-width: 800px;
+      }
+    }
+  }
+}
+@media (min-width: 1200px) {
+  .home {
+    .content-area {
+      .image-container {
+        padding: 56px 20px 0;
+        float: left;
+
+        .user-image {
+          position: absolute;
+          width: 500px;
+        }
+      }
+      .profile-section {
+        width: 70%;
+        float: left;
+        padding: 20% 60px 0;
+        max-width: 800px;
+        // padding: 20% 20px 0;
+      }
+    }
+  }
+}
